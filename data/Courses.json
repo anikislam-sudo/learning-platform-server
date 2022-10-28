@@ -3,36 +3,43 @@
 "name":"HTML",
 "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
  "Videos":"40",
+ "Balance":"400 TK",
  "Description":"HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.At its core, HTML is a series of short codes typed into a text-file. These are the tags that power HTML’s capabilities. The text is saved as an HTML file and viewed through a web browser. The browser reads the file and translates the text into a visible form, as directed by the codes the author used to write what becomes the visible rendering. Writing HTML requires tags to be used correctly to create the author’s vision."
 }, 
 {"_id":"02",
 "name":"CSS",
 "logo":"https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
 "Videos":"38",
+"Balance":"300 TK",
 "Description":"CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces. It can also be used with any kind of XML documents including plain XML, SVG and XUL.CSS is used along with HTML and JavaScript in most websites to create user interfaces for web applications and user interfaces for many mobile applications.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts."},
 
 {"_id":"03",
 "name":"Bootstrap",
 "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png",
+"Balance":"400 TK",
 "Videos":"37",
 "Description":"Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.As a framework, Bootstrap includes the basics for responsive web development, so developers only need to insert the code into a pre-defined grid system. The Bootstrap framework is built on Hypertext Markup Language (HTML), cascading style sheets (CSS) and JavaScript. Web developers using Bootstrap can build websites much faster without spending time worrying about basic commands and functions."
 },
 {"_id":"04",
 "name":"Tailwind",
 "logo":"https://cms-assets.tutsplus.com/uploads/users/30/posts/33545/preview_image/tailwind-pre.png",
+"Balance":"500 TK",
 "Videos":"38",
+
 "Description":"Tailwind CSS can be used to make websites in the fastest and the easiest way.Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. The beauty of this thing called tailwind is it doesn’t impose design specification or how your site should look like, you simply bring tiny components together to construct a user interface that is unique. What Tailwind simply does is take a ‘raw’ CSS file, processes this CSS file over a configuration file, and produces an output."
 },
 
 {"_id":"05",
 "name":"JavaScript",
 "logo":"https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+"Balance":"500 TK",
 "Videos":"39",
 "Description":"JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.Many browsers use JavaScript as a scripting language for doing dynamic things on the web. Any time you see a click-to-show dropdown menu, extra content added to a page, and dynamically changing element colors on a page, to name a few features, you're seeing the effects of JavaScript."
 },
 {"_id":"06",
 "name":"React",
 "logo":"https://res.cloudinary.com/practicaldev/image/fetch/s--qo_Wp38Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/e0nl7ziy1la7bpwj7rsp.png",
+"Balance":"700 TK",
 "Videos":"45",
 "Description":"ReactJS is JavaScript library used for building reusable UI components. According to React official documentation, following is the definition −React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time. Lots of people use React as the V in MVC. React abstracts away the DOM from you, offering a simpler programming model and better performance. React can also render on the server using Node, and it can power native apps using React Native. React implements one-way reactive data flow, which reduces the boilerplate and is easier to reason about than traditional data binding."
 }
