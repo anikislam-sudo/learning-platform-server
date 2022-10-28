@@ -4,22 +4,34 @@ const cors = require ("cors");
 app.use(cors());
 
 const port = process.env.port || 5000;
-const allCollection = require ("");
+const Categories = require ("./data/Categories.json");
+const Courses =    require("./data/Courses.json");
 
 
 
 app.get("/",(req,res)=>{
-  res.send("Now server is running");
+  res.send("Now API is running");
 });
 
-app.get("/allData",(req,res)=>{
- res.send(allCollection);
+app.get("/Courses-Categories",(req,res)=>{
+ res.send(Categories);
 });
+app.get("/AllCourses",(req,res)=>{
+ res.send(Courses);
+});
+
 app.get("/category/:id",(req,res)=>{
+    const id = req.params.id;
+    const category_courses = Courses?.find((c)=>c._id === id);
+    res.send(category_courses);
+   }); 
+
+ /* app.get("/courses/:id",(req,res)=>{
  const id = req.params.id;
- const singleItem = travelCollection?.find((p)=>p.id == id);
+ const singleItem = Courses?.find((c)=>c._id == id);
  res.send(singleItem);
-});
+});  */
+
 
 app.listen (port,()=>{
     console.log("server is running",port);
